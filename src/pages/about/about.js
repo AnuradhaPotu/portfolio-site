@@ -24,7 +24,7 @@ const About = () => {
               Hi there! I am <strong>&nbsp;Anu</strong><br />
                <p className="m-0 text-align-left">
               
-               I am an Experienced Frontend developer/Sr SDET having worked in Telecom,Banking and Finanical, Insurance and Ecommerce domains holding Bachelors of Technology degree in Computer Science Engineering. 
+               I am an Experienced Frontend developer/Sr SDET having worked in Telecom,Banking and Financial, Insurance and Ecommerce domains holding Bachelors of Technology degree in Computer Science Engineering. 
                
                 <br /> <br /></p> 
                 <Col className="d-flex justify-content-center flex-wrap">
