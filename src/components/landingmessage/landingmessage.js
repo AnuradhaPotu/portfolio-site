@@ -33,21 +33,18 @@ const LandingMessage = () => (
     <div className="titleMessage">
       <div className="heading">
         <div className="main text-center mb-3">
-          Hi, I am
-          <br />
+
           <span>
-            <strong>Anu Potu</strong>
+            <strong>
+              <Typewriter
+                options={{
+                  strings: ["Hi, I am Anu Potu", "Full Stack Developer"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 50
+                }} />
+            </strong>
           </span>
-        </div>
-        <div className="sub">
-          <Typewriter
-            options={{
-              strings: ["Frontend Developer", "Sr SDET", "Java Developer"],
-              autoStart: true,
-              loop: true,
-              delay: 50
-            }}
-          />
         </div>
       </div>
     </div>

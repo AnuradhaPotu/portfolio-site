@@ -20,13 +20,13 @@ const About = () => {
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
-              Hi there! I am <strong>&nbsp;Anu</strong><br />
-               <p className="m-0 text-align-left">
-              
-               I am an Experienced Frontend developer/Sr SDET having worked in Telecom,Banking and Financial, Insurance and Ecommerce domains holding Bachelors of Technology degree in Computer Science Engineering. 
-               
-                <br /> <br /></p> 
+              <Row className="align-items-start p-2 my-details rounded">
+                Hi there! I am <strong>&nbsp;Anu</strong><br />
+                <p className='text-left'>
+                  I am an Experienced Full Stack Developer having worked in
+                  Telecom,Banking and Financial, Insurance and Ecommerce domains
+                  holding Bachelors of Technology degree in Computer Science Engineering.
+                  <br /> <br /></p>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
@@ -35,7 +35,7 @@ const About = () => {
                       </Button>
                     </a>
                   </div>
-                 
+
                   <div>
                     <a href="https://github.com/AnuradhaPotu" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">

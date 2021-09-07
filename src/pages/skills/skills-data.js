@@ -21,6 +21,7 @@ import L_CONTENTFUL from "../../img/skills/contentful.svg"
 import L_JENKINS from "../../img/skills/Jenkins.svg"
 import L_VERCEL from "../../img/skills/vercel.svg"
 import L_BITBUCKET from "../../img/skills/bucket.svg"
+import L_GITLAB from "../../img/skills/gitlab-icon.svg"
 
 
 
@@ -68,8 +69,8 @@ export const skills = {
       imgSrc: L_REDUX,
       skillName: "Redux",
     },
-    
-    
+
+
     {
       link: "https://react-bootstrap.github.io/",
       imgAltText: "React Bootstrap",
@@ -82,8 +83,8 @@ export const skills = {
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
     },
-    
-    
+
+
   ],
   CMS: [
     {
@@ -98,7 +99,7 @@ export const skills = {
       imgSrc: L_CONTENTFUL,
       skillName: "Contentful",
     },
-    
+
   ],
 
   backend: [
@@ -120,10 +121,10 @@ export const skills = {
       imgSrc: L_JAVA,
       skillName: "Java",
     },
-    
+
   ],
   deployment: [
-    
+
     {
       link: "https://www.jenkins.io/",
       imgAltText: "Jenkins",
@@ -136,6 +137,12 @@ export const skills = {
       imgSrc: L_VERCEL,
       skillName: "Vercel",
     },
+    {
+      link: "https://about.gitlab.com/",
+      imgAltText: "Gitlab",
+      imgSrc: L_GITLAB,
+      skillName: "Gitlab",
+    }
   ],
   programmingLanguages: [
     {
@@ -144,7 +151,7 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    
+
     {
       link: "https://www.python.org/",
       imgAltText: "Python",
@@ -157,7 +164,7 @@ export const skills = {
       imgSrc: L_GROOVY,
       skillName: "Groovy",
     },
-    
+
   ],
   databases: [
     {
